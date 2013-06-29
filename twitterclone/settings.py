@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Chris Celi', 'celic@rpi.edu'),
 )
 
 MANAGERS = ADMINS
@@ -125,6 +125,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'bootstrap_toolkit',
+    'twitter',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -155,3 +156,5 @@ LOGGING = {
         },
     }
 }
+
+LOGIN_URL = '/login/'
